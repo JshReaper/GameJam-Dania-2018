@@ -797,7 +797,7 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 3
   m_TerrainData: {fileID: 15600000, guid: 2e22ad16cf91064469587dc9140e5292, type: 2}
-  m_TreeDistance: 5000
+  m_TreeDistance: 2000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
@@ -941,6 +941,61 @@ Prefab:
       propertyPath: target
       value: 
       objectReference: {fileID: 1670293686}
+    - target: {fileID: 4525934284477924, guid: ee13245445a3dde45b45899e20d6f590, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525934284477924, guid: ee13245445a3dde45b45899e20d6f590, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525934284477924, guid: ee13245445a3dde45b45899e20d6f590, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525934284477924, guid: ee13245445a3dde45b45899e20d6f590, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525934284477924, guid: ee13245445a3dde45b45899e20d6f590, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525934284477924, guid: ee13245445a3dde45b45899e20d6f590, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525934284477924, guid: ee13245445a3dde45b45899e20d6f590, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525934284477924, guid: ee13245445a3dde45b45899e20d6f590, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525934284477924, guid: ee13245445a3dde45b45899e20d6f590, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525934284477924, guid: ee13245445a3dde45b45899e20d6f590, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 111504962199914524, guid: ee13245445a3dde45b45899e20d6f590,
+        type: 2}
+      propertyPath: m_PlayAutomatically
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 111504962199914524, guid: ee13245445a3dde45b45899e20d6f590,
+        type: 2}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400006, guid: 035a8130f4329504aaa80f75dc72628d, type: 3}
+    - target: {fileID: 195196702191981246, guid: ee13245445a3dde45b45899e20d6f590,
+        type: 2}
+      propertyPath: m_Speed
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ee13245445a3dde45b45899e20d6f590, type: 2}
   m_IsPrefabParent: 0
