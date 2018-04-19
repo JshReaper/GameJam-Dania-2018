@@ -11,7 +11,10 @@ public class GoalCollision : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
+        if (life == 0)
+        {
+            Application.Quit();
+        }
 	}
 
     private void OnCollisionEnter(Collision collision)
