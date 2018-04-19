@@ -3,25 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GoalCollision : MonoBehaviour {
-    int life;
+    
     // Use this for initialization
     void Start () {
-        life = 3;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (life == 0)
+        if (GameControl.instance.Hp == 0)
         {
             Application.Quit();
         }
 	}
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision other)
     {
-        if (collision.gameObject)
+        if (other.gameObject.CompareTag("Enemy"))
         {
-            life--;
+            GameControl.instance.Hp--;
+            Destroy(other.gameObject);
         }
     }
 }
