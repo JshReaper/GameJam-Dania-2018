@@ -10,12 +10,19 @@ public class UIUpdater : MonoBehaviour {
     Text score;
 	// Use this for initialization
 	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        health.text = "Life: " + GameControl.instance.Hp;
+        if (GameControl.instance != null)
+        { 
+        GameControl.instance.Hp = 3;
+        GameControl.instance.Score = 0;
+        }
+
+    }
+
+    // Update is called once per frame
+    void Update () {
+        if (GameControl.instance != null) { 
+            health.text = "Life: " + GameControl.instance.Hp;
         score.text = "Score: " + GameControl.instance.Score;
-	}
+        }
+    }
 }
