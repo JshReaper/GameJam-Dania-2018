@@ -17,13 +17,16 @@ public class EnemySpawner : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         t  += Time.deltaTime;
-        if (t > 5) 
+        if (t > 2.0f) 
         {
             Debug.Log("Spawn");
             t = 0;
-            Instantiate(go);
+            for (int i = 0; i < 3; i++)
+            {
+                GameObject g = Instantiate(go);
+                g.transform.position += new Vector3(0, i*50, 0);
+            }
             
         }
-        Debug.Log(t);
     }
 }
